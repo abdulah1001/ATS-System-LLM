@@ -10,7 +10,7 @@ from prompts import ATS_PROMPT_TEMPLATE
 load_dotenv()
 
 # Constants
-API_KEY = os.getenv(key="GOOGLE_API_KEY")
+API_KEY = os.getenv(key="AIzaSyBhwaH2OqHOKr7LbctRgM_rPlrEOs0qD3Y")
 
 # API Setup
 genai.configure(api_key=API_KEY)
